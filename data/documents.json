@@ -1,0 +1,18 @@
+[
+  {
+    "tenant": "acme",
+    "document_id": "backup-policy",
+    "text": "Backups are retained for 30 days. A restore drill runs monthly in an isolated account."
+  },
+  {
+    "tenant": "acme",
+    "document_id": "release-policy",
+    "text": "Application releases pass tests in staging, then require an approval before production promotion."
+  },
+  {
+    "tenant": "other",
+    "document_id": "other-private",
+    "text": "Other tenant confidential backup retention is 90 days."
+  }
+]
+
